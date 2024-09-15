@@ -1,0 +1,72 @@
+/* Importando fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Estilo geral do body */
+body {
+    background-color: #121212; /* Cor de fundo escura para realçar as cores vibrantes */
+    color: #e0e0e0; /* Cor de texto clara para contraste com o fundo escuro */
+    font-family: "Press Start 2P", monospace; /* Fonte de estilo retrô e digital para um toque futurista */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajustado para ocupar a altura total da tela */
+    margin: 0;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #ff6f61; /* Cor vibrante de fundo dos botões */
+    color: #fff; /* Cor do texto dos botões em branco */
+    border: 2px solid #ff3d3d; /* Borda com uma cor de destaque mais intensa */
+    padding: 12px 24px; /* Tamanho do padding aumentado */
+    margin: 10px;
+    border-radius: 8px; /* Bordas arredondadas para um visual moderno */
+    font-size: 18px; /* Tamanho de fonte aumentado para os botões */
+    cursor: pointer; /* Cursor de ponteiro para botões */
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Transição suave para alterações */
+}
+
+/* Estilo dos botões em hover */
+button:hover {
+    background-color: #ff3d3d; /* Cor de fundo dos botões ao passar o mouse */
+    border-color: #e02d2d; /* Cor da borda ao passar o mouse */
+    color: #ffff00; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo das seções da história */
+.passo {
+    display: none; /* Oculta as seções por padrão */
+}
+
+.passo.ativo {
+    display: block; /* Exibe a seção ativa */
+}
+
+/* Estilo do main */
+main {
+    text-align: center;
+    max-width: 80%; /* Reduzido para criar mais espaço nas laterais */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #2a2a2a; /* Fundo das seções para um contraste com o corpo */
+    border-radius: 12px; /* Bordas arredondadas para um visual mais suave */
+    border: 2px solid #f39c12; /* Borda em cor dourada brilhante */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra mais pronunciada para profundidade */
+}
+
+/* Estilo das imagens */
+img {
+    max-width: 100%; /* Ajusta para ocupar 100% da largura disponível */
+    border-radius: 8px; /* Bordas arredondadas para imagens */
+    margin-top: 20px; /* Adiciona espaçamento acima das imagens */
+}
+
+/* Estilo adicional para títulos e parágrafos */
+h1, h2, h3 {
+    color: #1e90ff; /* Cor vibrante azul para títulos */
+    font-family: "Creepster", cursive; /* Fonte de suspense para títulos */
+}
+
+p {
+    line-height: 1.8; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+}
